@@ -26,6 +26,5 @@ afterEach(function () {
       'Test Video',
       videoPath,
       'video/mp4'
-    );
   }
 });
