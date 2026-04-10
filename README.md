@@ -53,7 +53,7 @@ npx allure open
 
 ## 📊 Allure Report Preview
 
-![Allure Report]("https://github.com/user-attachments/assets/d87ec9e1-6938-4617-8a6f-70050ff65bd9)
+![Allure Report](https://dvealiyah.github.io/cypress-swaglabs-tests/)
 
 🌐 Live Report
 
