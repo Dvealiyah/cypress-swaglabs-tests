@@ -1,0 +1,181 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-04-10T14:43:34.703Z",
+    "end": "2026-04-10T14:43:48.591Z",
+    "duration": 13888,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "974a1b2b-1b8b-437a-9130-e1bf2be06f14",
+      "title": "",
+      "fullFile": "cypress\\e2e\\swaglabs.cy.js",
+      "file": "cypress\\e2e\\swaglabs.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "843894ba-2dd0-4801-9529-525b219cc1d1",
+          "title": "Swag Labs Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add product to cart",
+              "fullTitle": "Swag Labs Tests Add product to cart",
+              "timedOut": null,
+              "duration": 3371,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "products.addToCart('sauce-labs-backpack');\nproducts.verifyCartCount();",
+              "err": {},
+              "uuid": "f9c6808e-7b31-49ed-9022-4666a7a89ec1",
+              "parentUUID": "843894ba-2dd0-4801-9529-525b219cc1d1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Remove product from cart",
+              "fullTitle": "Swag Labs Tests Remove product from cart",
+              "timedOut": null,
+              "duration": 1323,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "products.addToCart('sauce-labs-backpack');\nproducts.removeFromCart();",
+              "err": {},
+              "uuid": "4d0868b8-8a24-4a10-9a36-edc19a5eecce",
+              "parentUUID": "843894ba-2dd0-4801-9529-525b219cc1d1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify products are displayed",
+              "fullTitle": "Swag Labs Tests Verify products are displayed",
+              "timedOut": null,
+              "duration": 1256,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "products.verifyProductsVisible();",
+              "err": {},
+              "uuid": "d8c94d7b-9270-4992-94ee-97fc718813ce",
+              "parentUUID": "843894ba-2dd0-4801-9529-525b219cc1d1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login with wrong password",
+              "fullTitle": "Swag Labs Tests Login with wrong password",
+              "timedOut": null,
+              "duration": 2197,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "login.visit();\nlogin.login('standard_user', 'wrong_password');\ncy.get('[data-test=\"error\"]').should('be.visible');",
+              "err": {},
+              "uuid": "c41ce624-0377-4d7b-9cb5-e6e36f991c68",
+              "parentUUID": "843894ba-2dd0-4801-9529-525b219cc1d1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Complete checkout process",
+              "fullTitle": "Swag Labs Tests Complete checkout process",
+              "timedOut": null,
+              "duration": 2555,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('userData').then(data => {\n  products.addToCart('sauce-labs-backpack');\n  checkout.goToCart();\n  checkout.clickCheckout();\n  checkout.enterInformation(data.firstName, data.lastName, data.zip);\n  checkout.clickContinue();\n  checkout.clickFinish();\n  checkout.verifyOrderComplete();\n});",
+              "err": {},
+              "uuid": "dbba9b30-ef1f-4b74-a833-45d7ee1381b6",
+              "parentUUID": "843894ba-2dd0-4801-9529-525b219cc1d1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f9c6808e-7b31-49ed-9022-4666a7a89ec1",
+            "4d0868b8-8a24-4a10-9a36-edc19a5eecce",
+            "d8c94d7b-9270-4992-94ee-97fc718813ce",
+            "c41ce624-0377-4d7b-9cb5-e6e36f991c68",
+            "dbba9b30-ef1f-4b74-a833-45d7ee1381b6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10702,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}
