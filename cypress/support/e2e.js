@@ -17,7 +17,7 @@
 import '@shelex/cypress-allure-plugin';
 
 
-aafterEach(function () {
+afterEach(function () {
   if (this.currentTest.state === 'failed') {
 
     const videoPath = cypress/videos/${Cypress.spec.name}.mp4;
