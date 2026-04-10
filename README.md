@@ -51,7 +51,13 @@ Generate and open Allure report:
 npx allure generate allure-results --clean
 npx allure open
 
+## 📊 Allure Report Preview
 
+![Allure Report](your-image-link-here)
+
+🌐 Live Report
+
+[View Allure Report](https://your-link)
 🎥 Test Evidence
  • Videos are automatically recorded when tests fail
  • Videos are attached inside Allure reports
@@ -76,4 +82,4 @@ Tests run automatically using GitHub Actions on every push.
 
 💡 Author
 
-QA Automation Engineer 🚀
+QA Automation Engineer | Cypress | CI/CD 🚀
