@@ -15,4 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import '@shelex/cypress-allure-plugin';
-    
+Cypress.on('fail', (error, runnable) => {
+  cy.screenshot('error-screenshot');
+  throw error;
+});
