@@ -53,11 +53,11 @@ npx allure open
 
 ## 📊 Allure Report Preview
 
-![Allure Report](<img width="2556" height="1354" alt="image" src="https://github.com/user-attachments/assets/d87ec9e1-6938-4617-8a6f-70050ff65bd9" />)
+![Allure Report]("https://github.com/user-attachments/assets/d87ec9e1-6938-4617-8a6f-70050ff65bd9)
 
 🌐 Live Report
 
-[View Allure Report](<img width="2556" height="1354" alt="image" src="https://github.com/user-attachments/assets/05812590-876d-473e-83dd-41e17f2a2d1d" />)
+[View Allure Report](https://github.com/user-attachments/assets/05812590-876d-473e-83dd-41e17f2a2d1d)
 🎥 Test Evidence
  • Videos are automatically recorded when tests fail
  • Videos are attached inside Allure reports
