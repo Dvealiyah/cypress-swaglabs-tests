@@ -27,6 +27,7 @@ describe('Swag Labs Tests', () => {
 
     cy.allure().step('Verify cart count');
     products.verifyCartCount()
+   
     expect(true).to.equal(false)
   })
 
