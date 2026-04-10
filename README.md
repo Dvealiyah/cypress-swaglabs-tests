@@ -1,3 +1,7 @@
+![Cypress](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
+![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow)
+
 # 🧪 Cypress Swag Labs Test Automation
 
 Automated end-to-end testing project using Cypress for the Swag Labs demo application.
@@ -53,11 +57,10 @@ npx allure open
 
 ## 📊 Allure Report Preview
 
-![Allure Report](https://github.com/user-attachments/assets/05812590-876d-473e-83dd-41e17f2a2d1d)
+![Allure Report](https://raw.githubusercontent.com/dvealiyah/cypress-swaglabs-tests/main/allure-report.png)
+## 🌐 Live Report
 
-🌐 Live Report
-
-[View Allure Report](https://dvealiyah.github.io/cypress-swaglabs-tests/)
+[View Allure Report](https://dvealiyah.github.io/cypress-swaglabs-tests/allure-report/)
 🎥 Test Evidence
  • Videos are automatically recorded when tests fail
  • Videos are attached inside Allure reports
@@ -82,4 +85,4 @@ Tests run automatically using GitHub Actions on every push.
 
 💡 Author
 
-QA Automation Engineer | Cypress | CI/CD 🚀
+Dvealiyah | QA Automation Engineer 🚀
