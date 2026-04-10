@@ -53,11 +53,11 @@ npx allure open
 
 ## 📊 Allure Report Preview
 
-![Allure Report](https://dvealiyah.github.io/cypress-swaglabs-tests/)
+![Allure Report](https://github.com/user-attachments/assets/05812590-876d-473e-83dd-41e17f2a2d1d)
 
 🌐 Live Report
 
-[View Allure Report](https://github.com/user-attachments/assets/05812590-876d-473e-83dd-41e17f2a2d1d)
+[View Allure Report](https://dvealiyah.github.io/cypress-swaglabs-tests/)
 🎥 Test Evidence
  • Videos are automatically recorded when tests fail
  • Videos are attached inside Allure reports
